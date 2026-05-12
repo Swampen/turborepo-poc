@@ -20,8 +20,8 @@
     "@dependabot-repro/shared-i18n": "*",
     "@dependabot-repro/shared-lib": "*",
     "lottie-web": "^5.13.0",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "react-hook-form": "^7.72.1"
   },
   "devDependencies": {
@@ -40,6 +40,6 @@
   "peerDependencies": {
     "@base-ui/react": "^1.0.0",
     "next": "^16.2.6",
-    "next-sanity": "^12.0.8"
+    "next-sanity": "^12.4.5"
   }
 }
