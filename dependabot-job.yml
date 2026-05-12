@@ -1,0 +1,21 @@
+job:
+  package-manager: npm_and_yarn
+  allowed-updates:
+    - dependency-type: direct
+      update-type: all
+  dependencies:
+    - "@babel/plugin-transform-modules-systemjs"
+  security-advisories:
+    - dependency-name: "@babel/plugin-transform-modules-systemjs"
+      affected-versions:
+        - ">= 7.12.0 <= 7.29.3"
+        - ">= 8.0.0-alpha.0 <= 8.0.0-alpha.12"
+      patched-versions: []
+      unaffected-versions: []
+  security-updates-only: true
+  repo-private: false
+  source:
+    provider: github
+    repo: Swampen/monorepo-poc
+    directory: /
+    commit: 3bcc683e7bcec5c6ca0214f6efc42ad3a0723662

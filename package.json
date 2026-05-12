@@ -1,0 +1,29 @@
+{
+  "name": "dependabot-security-repro",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "test:coverage": "turbo test:coverage",
+    "typecheck": "turbo typecheck",
+    "typegen": "turbo typegen",
+    "format": "prettier --write \"{apps,packages}/**/*.{js,jsx,ts,tsx,css,md,mdx,json}\"",
+    "format:check": "prettier --check \"{apps,packages}/**/*.{js,jsx,ts,tsx,css,md,mdx,json}\""
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.4",
+    "prettier": "^3.8.3",
+    "turbo": "^2.8.17",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@11.5.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

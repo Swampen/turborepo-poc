@@ -1,0 +1,51 @@
+{
+  "name": "app-b",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "next typegen && tsc --noEmit",
+    "typegen": "sanity typegen generate"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.3.0",
+    "@dependabot-repro/shared-content": "*",
+    "@dependabot-repro/shared-i18n": "*",
+    "@dependabot-repro/shared-lib": "*",
+    "@dependabot-repro/shared-ui": "*",
+    "@floating-ui/react": "^0.27.19",
+    "@formatjs/intl-localematcher": "^0.8.3",
+    "clsx": "^2.1.1",
+    "mixpanel-browser": "^2.76.0",
+    "next": "^16.2.6",
+    "next-sanity": "^12.1.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@csstools/postcss-global-data": "^4.0.0",
+    "@dependabot-repro/config-eslint": "*",
+    "@dependabot-repro/config-typescript": "*",
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^22",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "app-d": "*",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "postcss-load-config": "^6.0.1",
+    "postcss-preset-env": "^11.2.1",
+    "stylelint": "^17.5.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-prettier": "^5.0.2",
+    "stylelint-use-nesting": "^6.0.2",
+    "typescript": "^5",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}

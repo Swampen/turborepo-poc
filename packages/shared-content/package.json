@@ -1,0 +1,36 @@
+{
+  "name": "@dependabot-repro/shared-content",
+  "version": "0.0.0",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./content-types": "./src/types/content-types.ts",
+    "./client": "./src/client/client.ts",
+    "./client-url": "./src/client/client-url.ts",
+    "./asset-proxy": "./src/asset-proxy.ts",
+    "./visual-editing": "./src/visual-editing/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@sanity/image-url": "^2.0.3",
+    "@sanity/preview-url-secret": "^4.0.5"
+  },
+  "devDependencies": {
+    "@dependabot-repro/config-eslint": "*",
+    "@dependabot-repro/config-typescript": "*",
+    "@types/node": "^22.13.10",
+    "typescript": "5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "peerDependencies": {
+    "clsx": "^2.1.1",
+    "next-sanity": "^12.0.8",
+    "server-only": "^0.0.1"
+  }
+}
