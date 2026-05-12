@@ -17,9 +17,9 @@ input:
         security-updates-only: true
         source:
             provider: github
-            repo: Swampen/monorepo-poc
+            repo: Swampen/turborepo-poc
             directory: /
-            commit: 3bcc683e7bcec5c6ca0214f6efc42ad3a0723662
+            commit: 7d213491afab509a9b171dee94bd4f00d134bc17
 output:
     - type: update_dependency_list
       expect:
@@ -260,25 +260,25 @@ output:
                     - file: apps/app-a/package.json
                       groups:
                         - dependencies
-                      requirement: ^16.2.4
+                      requirement: ^16.2.6
                       source:
                         type: registry
                         url: https://registry.npmjs.org
                     - file: apps/app-b/package.json
                       groups:
                         - dependencies
-                      requirement: ^16.2.4
+                      requirement: ^16.2.6
                       source:
                         type: registry
                         url: https://registry.npmjs.org
                     - file: apps/app-c/package.json
                       groups:
                         - dependencies
-                      requirement: ^16.2.4
+                      requirement: ^16.2.6
                       source:
                         type: registry
                         url: https://registry.npmjs.org
-                  version: 16.2.4
+                  version: 16.2.6
                 - name: next-sanity
                   requirements:
                     - file: apps/app-a/package.json
@@ -660,32 +660,32 @@ output:
                     - file: apps/app-a/package.json
                       groups:
                         - devDependencies
-                      requirement: 16.2.4
+                      requirement: 16.2.6
                       source:
                         type: registry
                         url: https://registry.npmjs.org
                     - file: apps/app-b/package.json
                       groups:
                         - devDependencies
-                      requirement: 16.2.4
+                      requirement: 16.2.6
                       source:
                         type: registry
                         url: https://registry.npmjs.org
                     - file: apps/app-c/package.json
                       groups:
                         - devDependencies
-                      requirement: 16.2.4
+                      requirement: 16.2.6
                       source:
                         type: registry
                         url: https://registry.npmjs.org
                     - file: apps/app-d/package.json
                       groups:
                         - devDependencies
-                      requirement: 16.2.4
+                      requirement: 16.2.6
                       source:
                         type: registry
                         url: https://registry.npmjs.org
-                  version: 16.2.4
+                  version: 16.2.6
                 - name: postcss-load-config
                   requirements:
                     - file: apps/app-a/package.json
@@ -2292,36 +2292,33 @@ output:
                 - name: '@mux/playback-core'
                   requirements: []
                   version: 0.35.0
-                - name: '@napi-rs/wasm-runtime'
-                  requirements: []
-                  version: 0.2.12
                 - name: '@next/env'
                   requirements: []
-                  version: 16.2.4
+                  version: 16.2.6
                 - name: '@next/swc-darwin-arm64'
                   requirements: []
-                  version: 16.2.4
+                  version: 16.2.6
                 - name: '@next/swc-darwin-x64'
                   requirements: []
-                  version: 16.2.4
+                  version: 16.2.6
                 - name: '@next/swc-linux-arm64-gnu'
                   requirements: []
-                  version: 16.2.4
+                  version: 16.2.6
                 - name: '@next/swc-linux-arm64-musl'
                   requirements: []
-                  version: 16.2.4
+                  version: 16.2.6
                 - name: '@next/swc-linux-x64-gnu'
                   requirements: []
-                  version: 16.2.4
+                  version: 16.2.6
                 - name: '@next/swc-linux-x64-musl'
                   requirements: []
-                  version: 16.2.4
+                  version: 16.2.6
                 - name: '@next/swc-win32-arm64-msvc'
                   requirements: []
-                  version: 16.2.4
+                  version: 16.2.6
                 - name: '@next/swc-win32-x64-msvc'
                   requirements: []
-                  version: 16.2.4
+                  version: 16.2.6
                 - name: '@noble/ed25519'
                   requirements: []
                   version: 3.1.0
@@ -2469,51 +2466,6 @@ output:
                 - name: '@rexxars/react-split-pane'
                   requirements: []
                   version: 1.0.0
-                - name: '@rolldown/binding-android-arm64'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-darwin-arm64'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-darwin-x64'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-freebsd-x64'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-linux-arm-gnueabihf'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-linux-arm64-gnu'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-linux-arm64-musl'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-linux-ppc64-gnu'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-linux-s390x-gnu'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-linux-x64-gnu'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-linux-x64-musl'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-openharmony-arm64'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-wasm32-wasi'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-win32-arm64-msvc'
-                  requirements: []
-                  version: 1.0.0-rc.17
-                - name: '@rolldown/binding-win32-x64-msvc'
-                  requirements: []
-                  version: 1.0.0-rc.17
                 - name: '@rolldown/pluginutils'
                   requirements: []
                   version: 1.0.0-rc.3
@@ -3087,6 +3039,9 @@ output:
                 - name: '@unrs/resolver-binding-wasm32-wasi'
                   requirements: []
                   version: 1.11.1
+                - name: '@napi-rs/wasm-runtime'
+                  requirements: []
+                  version: 0.2.12
                 - name: '@unrs/resolver-binding-win32-arm64-msvc'
                   requirements: []
                   version: 1.11.1
@@ -4284,39 +4239,6 @@ output:
                 - name: lightningcss
                   requirements: []
                   version: 1.32.0
-                - name: lightningcss-android-arm64
-                  requirements: []
-                  version: 1.32.0
-                - name: lightningcss-darwin-arm64
-                  requirements: []
-                  version: 1.32.0
-                - name: lightningcss-darwin-x64
-                  requirements: []
-                  version: 1.32.0
-                - name: lightningcss-freebsd-x64
-                  requirements: []
-                  version: 1.32.0
-                - name: lightningcss-linux-arm-gnueabihf
-                  requirements: []
-                  version: 1.32.0
-                - name: lightningcss-linux-arm64-gnu
-                  requirements: []
-                  version: 1.32.0
-                - name: lightningcss-linux-arm64-musl
-                  requirements: []
-                  version: 1.32.0
-                - name: lightningcss-linux-x64-gnu
-                  requirements: []
-                  version: 1.32.0
-                - name: lightningcss-linux-x64-musl
-                  requirements: []
-                  version: 1.32.0
-                - name: lightningcss-win32-arm64-msvc
-                  requirements: []
-                  version: 1.32.0
-                - name: lightningcss-win32-x64-msvc
-                  requirements: []
-                  version: 1.32.0
                 - name: lilconfig
                   requirements: []
                   version: 3.1.3
@@ -5364,4 +5286,4 @@ output:
     - type: mark_as_processed
       expect:
         data:
-            base-commit-sha: 3bcc683e7bcec5c6ca0214f6efc42ad3a0723662
+            base-commit-sha: 7d213491afab509a9b171dee94bd4f00d134bc17

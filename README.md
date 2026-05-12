@@ -1,6 +1,6 @@
 # Dependabot Security Update Reproduction
 
-This repository is a sanitized public proof of concept for a Dependabot npm security update failure in a workspace monorepo. It is intended to be readable by Dependabot maintainers, support engineers, and AI agents investigating the behavior.
+This repository is a sanitized public proof of concept for a Dependabot npm security update failure in a Turborepo workspace. It is intended to be readable by Dependabot maintainers, support engineers, and AI agents investigating the behavior.
 
 The fixture uses only neutral folder and package names. The important behavior is the dependency graph and lockfile shape, not the application code.
 
@@ -34,7 +34,7 @@ The full captured CLI output is committed in `dependabot-output.yml`.
 
 ## Repository Shape
 
-This is an npm workspace monorepo with:
+This is an npm workspace Turborepo with:
 
 - `apps/app-a`
 - `apps/app-b`

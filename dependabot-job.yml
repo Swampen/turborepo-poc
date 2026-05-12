@@ -16,6 +16,6 @@ job:
   repo-private: false
   source:
     provider: github
-    repo: Swampen/monorepo-poc
+    repo: Swampen/turborepo-poc
     directory: /
-    commit: 3bcc683e7bcec5c6ca0214f6efc42ad3a0723662
+    commit: 7d213491afab509a9b171dee94bd4f00d134bc17
