@@ -18,13 +18,13 @@
     "@dependabot-repro/shared-lib": "*",
     "@dependabot-repro/shared-ui": "*",
     "@floating-ui/react": "^0.27.19",
-    "@formatjs/intl-localematcher": "^0.8.3",
+    "@formatjs/intl-localematcher": "^0.8.8",
     "clsx": "^2.1.1",
     "mixpanel-browser": "^2.76.0",
     "next": "^16.2.6",
-    "next-sanity": "^12.1.1",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
+    "next-sanity": "^12.4.5",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "server-only": "^0.0.1"
   },
   "devDependencies": {

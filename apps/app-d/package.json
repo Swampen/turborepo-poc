@@ -16,16 +16,16 @@
   "dependencies": {
     "@dependabot-repro/shared-content": "*",
     "@dependabot-repro/shared-lib": "*",
-    "@sanity/assist": "^6.0.4",
-    "@sanity/document-internationalization": "^6.1.0",
+    "@sanity/assist": "^6.0.6",
+    "@sanity/document-internationalization": "^6.1.2",
     "@sanity/id-utils": "^1.0.0",
-    "@sanity/language-filter": "^5.0.1",
+    "@sanity/language-filter": "^5.0.2",
     "@sanity/orderable-document-list": "^1.5.1",
     "@sanity/vision": "^5.17.1",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "sanity": "^5.5.0",
-    "sanity-plugin-internationalized-array": "^5.1.0",
+    "sanity-plugin-internationalized-array": "^5.1.2",
     "styled-components": "^6.3.11"
   },
   "devDependencies": {
