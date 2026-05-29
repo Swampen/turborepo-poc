@@ -37,7 +37,7 @@
     "@types/react-dom": "^19.2.3",
     "app-d": "*",
     "autoprefixer": "^10.4.27",
-    "eslint": "^9",
+    "eslint": "^10",
     "eslint-config-next": "16.2.6",
     "postcss-load-config": "^6.0.1",
     "postcss-preset-env": "^11.2.1",
