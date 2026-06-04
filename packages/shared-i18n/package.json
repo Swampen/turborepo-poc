@@ -12,7 +12,7 @@
     "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@formatjs/intl-localematcher": "^0.8.3"
+    "@formatjs/intl-localematcher": "^0.8.9"
   },
   "devDependencies": {
     "@dependabot-repro/config-eslint": "*",
