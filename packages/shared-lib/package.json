@@ -18,9 +18,9 @@
   },
   "dependencies": {
     "@azure/app-configuration": "^1.11.0",
-    "@azure/app-configuration-provider": "^2.4.1",
+    "@azure/app-configuration-provider": "^2.4.2",
     "@azure/identity": "^4.13.1",
-    "@azure/keyvault-secrets": "^4.10.0",
+    "@azure/keyvault-secrets": "^4.11.2",
     "@dependabot-repro/shared-content": "*",
     "@dependabot-repro/shared-i18n": "*",
     "pino": "^10.3.1",
