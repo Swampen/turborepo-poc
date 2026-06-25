@@ -25,7 +25,7 @@
     "@dependabot-repro/config-eslint": "*",
     "@dependabot-repro/config-typescript": "*",
     "@types/node": "^22.13.10",
-    "typescript": "5.9.3",
+    "typescript": "6.0.3",
     "vitest": "^4.0.18"
   },
   "peerDependencies": {
