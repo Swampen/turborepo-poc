@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@sanity/image-url": "^2.0.3",
-    "@sanity/preview-url-secret": "^4.0.5"
+    "@sanity/preview-url-secret": "^4.0.8"
   },
   "devDependencies": {
     "@dependabot-repro/config-eslint": "*",
